@@ -1,0 +1,21 @@
+{
+  "name": "teste-dasa-backend",
+  "version": "1.0.0",
+  "description": "treino e estudo sobre backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "author": "rafael veiga",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  }
+}
