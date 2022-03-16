@@ -44,7 +44,7 @@ Foi desenvolvido com as tecnologias:
  
  - Deixe o servidor online com `npm start`.
  - Execute os testes com `npm test`ou `npm run test`.
- - 
+ 
  ## Futuros updates
 
 - Aplicar middlewares de validação de campos;
