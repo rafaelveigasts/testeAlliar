@@ -7,6 +7,8 @@ Foi desenvolvido com as tecnologias:
 - BodyParser;
 - Nodemon;
 - Dotenv;
+- Chai/Mocha;
+- Sinon;
 
 ## Antes de iniciar
 - Clone o repositório: `git@github.com:rafaelveigasts/testeAlliar.git` .
@@ -28,14 +30,26 @@ Foi desenvolvido com as tecnologias:
 
 ### Cadastro de exame:
 
-- A rota /exam está servida com o CRUD para um cadastro de exame, com nome, tipo e status ao efetuar o update ou delete ele efetuará as mudanças em cascata.
+- A rota /exam está servida com o CRUD para um cadastro de exame, ao efetuar o update ou delete ele efetuará as mudanças em cascata.
 
 ### Cadastro de laboratório:
 
-- a rota /lab está servida com o CRUD para um cadastro de um laboratório, com nome, endereço e status ao efetuar o update ou delete ele efetuará as mudanças em cascata.
+- a rota /lab está servida com o CRUD para um cadastro de exame, ao efetuar o update ou delete ele efetuará as mudanças em cascata.
 
 ### Associações
 
 - a rota /labexam está servida com um método CRUD que recebe o id do lab e o id do exame e efetua a associação.
 
  ## Testes   
+ 
+ - Deixe o servidor online com `npm start`.
+ - Execute os testes com `npm test`ou `npm run test`.
+ - 
+ ## Futuros updates
+
+- Aplicar middlewares de validação de campos;
+- Aplicar express rescue para substituição de try/catch;
+- Aplicar as rotas generalistas;
+- Aplicar um ORM (sequelize ou prisma);
+- Aplicar typescript;
+- Aplicar POO
