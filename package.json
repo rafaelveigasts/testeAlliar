@@ -4,7 +4,7 @@
   "description": "treino e estudo sobre backend",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests",
+    "test": "mocha src/tests/unit/**/*.js",
     "start": "nodemon src/index.js"
   },
   "author": "rafael veiga",
@@ -16,7 +16,9 @@
     "express": "^4.17.3",
     "mocha": "^9.2.2",
     "nodemon": "^2.0.15",
-    "sinon": "^13.0.1"
+    "nyc": "^15.1.0",
+    "sinon": "^13.0.1",
+    "stub": "^0.3.2"
   },
   "dependencies": {
     "mysql2": "^2.3.3"
